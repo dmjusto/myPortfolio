@@ -30,16 +30,24 @@
   top: 50%;
   z-index: 3;
   text-align: center;
-  margin-top: -100px;
+  margin-top: -53px;
 
 
 }
 
 .titleMessage .heading p{
-  font-size: 22px;
-  font-weight: bold;
+  letter-spacing:11px;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, .5);
+}
+
+.titleMessage .heading .main{
+  color: #cc0052;
+  font-size: 40px;
+  /* font-weight: bold; */
+  /* font-weight: 900; */
+}
+.titleMessage .heading .sub{
   color: #fff;
-  letter-spacing:7px;
-  font-style: oblique ;
-  text-shadow: 5px 6px 5px rgba(0, 0, 0, .5);
+  font-size: 23px;
+  font-style: oblique;
 }
