@@ -8,7 +8,7 @@ $(document).ready(function()
   })
 
   var typed = new Typed(".typed" ,{
-    strings: ["software developer."],
+    strings: ["Software Developer."],
     typeSpeed: 70,
     startDelay: 800,
     loop: false,

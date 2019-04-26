@@ -30,7 +30,7 @@
   top: 50%;
   z-index: 3;
   text-align: center;
-  margin-top: -53px;
+  margin-top: -45px;
 
 
 }
@@ -41,7 +41,7 @@
 }
 
 .titleMessage .heading .main{
-  color: #cc0052;
+  color: #DC3522;
   font-size: 40px;
   /* font-weight: bold; */
   /* font-weight: 900; */
@@ -50,4 +50,18 @@
   color: #fff;
   font-size: 23px;
   font-style: oblique;
+}
+.section{
+  background-color: #1E1E20;
+  color: #fff;
+  padding: 100px;
+}
+.aboutImage{
+  max-width: 100%;
+}
+#aboutBackground{
+  background-color: #2A2C2B;
+  /* padding-left: 30px;
+  padding-top: 30px; */
+  padding: 30px;
 }
