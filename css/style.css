@@ -52,16 +52,20 @@
   font-style: oblique;
 }
 .section{
-  background-color: #1E1E20;
-  color: #fff;
   padding: 100px;
+  color: #fff;
+
+}
+.aboutSection{
+  background-color: #1E1E20;
 }
 .aboutImage{
   max-width: 100%;
 }
+.skillsSection{
+  background-color: #DC3522
+}
 #aboutBackground{
   background-color: #2A2C2B;
-  /* padding-left: 30px;
-  padding-top: 30px; */
   padding: 30px;
 }
