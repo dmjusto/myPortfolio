@@ -43,7 +43,7 @@ $(document).ready(function(){
      if(window.pageYOffset > skillsTopOffset - $(window).height() + 200){
        $('.chart').easyPieChart({
             easing: 'easeInOut',
-            barColor: '#DC3522',
+            barColor: '#e66a55',
             trackColor: false,
             scaleColor: false,
             lineWidth: 4,
@@ -56,3 +56,8 @@ $(document).ready(function(){
    })
 
 });
+
+$('li').on('click', function(){
+   $('li').removeClass('active');
+   $(this).toggleClass('active');
+})

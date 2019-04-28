@@ -30,7 +30,7 @@
   top: 50%;
   z-index: 3;
   text-align: center;
-  margin-top: -45px;
+  margin-top: -60px;
 
 
 }
@@ -57,7 +57,7 @@
 
 }
 .aboutSection{
-  background-color: #2A2C2B;
+  background-color: #6E6E6E;
 }
 .aboutImage{
   max-width: 100%;
@@ -99,6 +99,21 @@
 .owl-nav{
   text-align: center;
 }
-/* .squareIcon{
-  font-size: 45px;
-} */
+
+#navigation{
+  background-color: #2a2b30;
+  z-index: 100px;
+}
+
+#navigation li a{
+  color: #fff;
+}
+#navigation li a:hover,#navigation li.active a{
+  color: #e66a55;
+}
+.navbar-brand{
+  color: #fff;
+}
+.navbar-brand:hover{
+  color: #fff;
+}
