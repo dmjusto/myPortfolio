@@ -57,15 +57,48 @@
 
 }
 .aboutSection{
-  background-color: #1E1E20;
+  background-color: #2A2C2B;
 }
 .aboutImage{
   max-width: 100%;
 }
 .skillsSection{
-  background-color: #DC3522
+  background-color: #1E1E20;
+  color: #D9CB9E;
 }
 #aboutBackground{
-  background-color: #2A2C2B;
+  background-color: #1E1E20;
   padding: 30px;
 }
+
+.skill{
+  text-align: center;
+  margin-left: 25px;
+}
+.chart{
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+.chart canvas{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.chart .percent{
+  color: #fff;
+  line-height: 152px;
+  display: inline-block;
+  font-size: 35px;
+}
+.chart .percent::after{
+  content: '%';
+}
+.owl-nav{
+  text-align: center;
+}
+/* .squareIcon{
+  font-size: 45px;
+} */

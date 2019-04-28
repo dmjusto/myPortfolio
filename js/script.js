@@ -7,28 +7,52 @@ $(document).ready(function(){
   });
 
   var typed = new Typed(".typed" ,{
-    strings: ["Software Developer."],
+    strings: ["Software Developer.","Programer.","Gamer."],
     typeSpeed: 70,
     startDelay: 800,
-    loop: false,
+    loop: true,
     showCursor: false
   });
 
   $('.owl-carousel').owlCarousel({
+    autoplay:true,
+    autoplayTimeout:3000,
     loop:true,
-    margin:10,
-    nav:true,
+    touchDrag:true,
+    items:4,
     responsive:{
         0:{
             items:1
         },
-        600:{
+        480:{
+            items:2
+        },
+        768:{
             items:3
         },
-        1000:{
-            items:5
+        938:{
+            items:4
         }
     }
   });
+
+
+
+   var skillsTopOffset = $(".skillsSection").offset().top;
+   $(window).scroll(function(){
+     if(window.pageYOffset > skillsTopOffset - $(window).height() + 200){
+       $('.chart').easyPieChart({
+            easing: 'easeInOut',
+            barColor: '#DC3522',
+            trackColor: false,
+            scaleColor: false,
+            lineWidth: 4,
+            size: 152,
+            onStep: function(from, to, percent){
+              $(this.el).find('.percent').text(Math.round(percent))
+            }
+        });
+     }
+   })
 
 });
