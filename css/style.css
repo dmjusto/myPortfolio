@@ -108,12 +108,16 @@
 #navigation li a{
   color: #fff;
 }
-#navigation li a:hover,#navigation li.active a{
+#navigation li a:hover{
   color: #e66a55;
 }
 .navbar-brand{
-  color: #fff;
+  color: #e66a55;
 }
 .navbar-brand:hover{
-  color: #fff;
+  color: #e66a55;
+}
+.navbar-toggler-icon{
+  background: url(../img/icons/menu.png);
+  background-size: 100%;
 }
