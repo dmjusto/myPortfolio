@@ -16,6 +16,7 @@ $(document).ready(function(){
 
   $('.owl-carousel').owlCarousel({
     autoplay:true,
+    center:true,
     autoplayTimeout:3000,
     loop:true,
     touchDrag:true,

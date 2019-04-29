@@ -143,6 +143,11 @@
 }
 .items li img{
   width: 100%;
+  -webkit-transition: all 0.2s linear,0.5s;
+  -moz-transition: all 0.2s linear,0.5s;
+  -o-transition: all 0.2s linear,0.5s;
+  -ms-transition: all 0.2s linear,0.5s;
+  -transition: all 0.2s linear,0.5s;
 }
 .items .item{
   position: relative;
@@ -153,7 +158,7 @@
   position: absolute;
   width: 90px;
   height: 40px;
-  left:50%;
+  left: 50%;
   top: 50%;
   margin: -20px auto 0 -47px;
   text-align: center;
@@ -167,13 +172,20 @@
   height: 40px;
   position:relative;
   display: inline-block;
+
+  -webkit-transition: all 0.2s linear,0.2s;
+  -moz-transition: all 0.2s linear,0.2s;
+  -o-transition: all 0.2s linear,0.2s;
+  -ms-transition: all 0.2s linear,0.2s;
+  -transition: all 0.2s linear,0.2s;
+
 }
 .items .icons i{
   color: #fff;
   font-size: 20px;
   margin-top: 9.5px;
 }
-.imageOverlay{
+.items .imageOverlay{
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -181,6 +193,34 @@
   top: 0px;
   left: 0px;
   opacity: 0;
+
+  -webkit-transition: all 0.2s linear,0.5s;
+  -moz-transition: all 0.2s linear,0.5s;
+  -o-transition: all 0.2s linear,0.5s;
+  -ms-transition: all 0.2s linear,0.5s;
+  -transition: all 0.2s linear,0.5s;
+
+}
+.items .item:hover img{
+  -webkit-transform: scale(1.05,1.05);
+  -moz-transform: scale(1.05,1.05);
+  -o-transform: scale(1.05,1.05);
+  -ms-transform: scale(1.05,1.05);
+  -transform: scale(1.05,1.05);
+}
+.items .openButton{
+  float: left;
+  left: -200px
+}
+.items .videoLink{
+  float: right;
+  right: -200px;
+}
+.items .item:hover .openButton{
+  left: 0px;
+}
+.items .item:hover .videoLink{
+  right: 0px;
 }
 .items .item:hover .imageOverlay{
   opacity: 1;
@@ -196,6 +236,7 @@
 .filter a{
   display: block;
   color: black;
+  background-color: #D9D9D9;
   border: 1.5px  solid black;
   border-radius: 3px;
   padding: 10px 18px;
