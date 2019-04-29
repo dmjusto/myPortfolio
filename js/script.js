@@ -55,18 +55,29 @@ $(document).ready(function(){
      }
    })
 
+   $('li').on('click', function(){
+      $('li').removeClass('active');
+      $(this).toggleClass('active');
+   })
+
+   $('#navigation li a').click(function(e){
+     e.preventDefault();
+
+     var targetElement=$(this).attr("href");
+     var targetPosition=$(targetElement).offset().top;
+
+     $("html, body").animate({scrollTop: targetPosition - 50}, 'slow');
+   })
+
+   $("[data-fancybox]").fancybox();
+
+   $(".items").isotope({
+     filter:'*',
+     animationOptions:{
+       duration:1500,
+       easing:'linear',
+       queue:false
+     }
+   })
+
 });
-
-$('li').on('click', function(){
-   $('li').removeClass('active');
-   $(this).toggleClass('active');
-})
-
-$('#navigation li a').click(function(e){
-  e.preventDefault();
-
-  var targetElement=$(this).attr("href");
-  var targetPosition=$(targetElement).offset().top;
-
-  $("html, body").animate({scrollTop: targetPosition - 50}, 'slow');
-})
