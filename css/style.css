@@ -62,7 +62,14 @@
 }
 .skillsSection{
   background-color: #1E1E20;
-  color: #D9CB9E;
+  color: #fff;
+  padding: 40px;
+}
+.skillsSection .owl-dots{
+  padding-top: 20px;
+}
+.owl-stage{
+  cursor: grab;
 }
 
 #aboutBackground{
