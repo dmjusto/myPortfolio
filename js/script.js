@@ -70,15 +70,8 @@ $(document).ready(function(){
      $("html, body").animate({scrollTop: targetPosition - 50}, 'slow');
    })
 
-   $("[data-fancybox]").fancybox({
-     // smallBtn: true;
-     padding: 0,
-     helpers: {
-       overlay: {
-         locked: false
-   }
- }
-   });
+   $("[data-fancybox]").fancybox()
+
 
    $(".items").isotope({
      filter:'*',

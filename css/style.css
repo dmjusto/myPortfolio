@@ -162,6 +162,7 @@
   position: relative;
   display: block;
   overflow: hidden;
+  padding: 5px;
 }
 .items .icons{
   position: absolute;
@@ -293,4 +294,10 @@ display: inline-block;
 }
 .copyrightSection p{
   margin: 0;
+}
+#hiddenContent{
+  /* max-width: 550px; */
+  /* padding: 10px 30px 30px 30px; */
+  border-radius: 10px;
+  margin-left: 500px;
 }
