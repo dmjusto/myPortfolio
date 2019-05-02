@@ -351,8 +351,10 @@ display: inline-block;
   transition-duration: .4s;
 
 }
-.hiddenContent img{
+.hiddenContent img,
+.hiddenContent video{
   max-width: 100%;
+  padding-bottom: 20px;
 }
 
 /* Final state */
