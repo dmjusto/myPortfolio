@@ -207,7 +207,7 @@ display: inline-block;
   font-size: 1vw;
   padding: 5px;
 }
-.items .item a{
+.openButton{
   background-color: #DC3522;
   color: #fff;
   text-align: center;
@@ -219,6 +219,24 @@ display: inline-block;
   position:relative;
   display: inline-block;
 
+  -webkit-transition: all 0.2s linear,0.2s;
+  -moz-transition: all 0.2s linear,0.2s;
+  -o-transition: all 0.2s linear,0.2s;
+  -ms-transition: all 0.2s linear,0.2s;
+  -transition: all 0.2s linear,0.2s;
+
+}
+.openButton:hover{
+  color: #fff;
+  /* background-color: #E86917; */
+  text-decoration: none;
+
+  -webkit-transform: scale(1.05,1.05);
+  -moz-transform: scale(1.05,1.05);
+  -o-transform: scale(1.05,1.05);
+  -ms-transform: scale(1.05,1.05);
+  -transform: scale(1.05,1.05);
+}
 }
 .items .icons i{
   color: #fff;
@@ -273,14 +291,33 @@ display: inline-block;
 .filter a{
   display: block;
   color: black;
+  font-size: 15px;
+  font-weight: bold;
   background-color: #D9D9D9;
   border: 1.5px  solid black;
-  border-radius: 3px;
+  border-radius: 10px;
   padding: 10px 18px;
   text-decoration: none;
+
+  -webkit-transition: all 0.2s linear,0.2s;
+  -moz-transition: all 0.2s linear,0.2s;
+  -o-transition: all 0.2s linear,0.2s;
+  -ms-transition: all 0.2s linear,0.2s;
+  -transition: all 0.2s linear,0.2s;
+}
+.filter li a:hover{
+  background-color: #D9D9D9;
+  border-color: #000;
+  -webkit-transform: scale(1.05,1.05);
+  -moz-transform: scale(1.05,1.05);
+  -o-transform: scale(1.05,1.05);
+  -ms-transform: scale(1.05,1.05);
+  -transform: scale(1.05,1.05);
+  color: #000;
 }
 .filter li{
   display: inline-block;
+  padding: 0 3px;
 }
 .filter .current{
   background-color: #DC3522;
@@ -298,7 +335,8 @@ display: inline-block;
 .hiddenContent{
   overflow: hidden;
   border-radius: 10px;
-  margin-left: 500px !important;
+  /* margin-left: 500px !important; */
+  max-width: 80% !important;
 
   transform: translateY(-50px);
   transition: all .7s;
@@ -311,6 +349,10 @@ display: inline-block;
 
   transition-property: transform, opacity;
   transition-duration: .4s;
+
+}
+.hiddenContent img{
+  max-width: 100%;
 }
 
 /* Final state */

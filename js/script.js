@@ -70,7 +70,9 @@ $(document).ready(function(){
      $("html, body").animate({scrollTop: targetPosition - 50}, 'slow');
    })
 
-   $("[data-fancybox]").fancybox()
+   $("[data-fancybox]").fancybox({
+  
+   })
 
 
    $(".items").isotope({
