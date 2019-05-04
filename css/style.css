@@ -74,6 +74,7 @@
   color: #FBBE00;
   font-family: 'PT Sans Narrow', sans-serif;
   text-align: center;
+  padding-bottom: 30px;
 }
 .aboutSection{
   background-color: #1E1E20;
@@ -87,11 +88,11 @@
   max-width: 100%;
 }
 .quoteSection{
-  background-color: #000;
+  background-color: #0097C2;
   color: #FBBE00;
-  text-align: center;
-  font-size: 2vw;
-  padding: 50px 100px;
+  text-align: right;
+  font-size: 2.5vw;
+  padding: 50px 10%;
 }
 .skillsSection{
   background-color: #1E1E20;
@@ -128,6 +129,9 @@
   height: 152px;
   display: inline-block;
   text-align: center;
+}
+.chart h4{
+  padding-top: 20px;
 }
 .chart canvas{
   position: absolute;
@@ -189,6 +193,12 @@
   padding-bottom: 40px;
   width: 100%;
 }
+.portfolioSection hr{
+  font-family: 'Roboto', sans-serif;
+}
+.portfolioSection p{
+  font-family: 'PT Sans', sans-serif;
+}
 .items li{
   display: inline-block;
   padding: 0;
@@ -231,16 +241,17 @@
   -transition: all 0.2s linear,0.3s;
 }
 .item .description{
-position: absolute;
-width: 100%;
-height: 40px;
-top: 25%;
-float: right;
-right: -275px;
-margin: 0 auto;
-text-align: center;
-z-index: 3;
-display: inline-block;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 25%;
+  float: right;
+  right: -275px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 3;
+  display: inline-block;
 
 -webkit-transition: all 0.2s linear,0.3s;
 -moz-transition: all 0.2s linear,0.3s;
@@ -396,7 +407,7 @@ display: inline-block;
 .hiddenContent a{
   width: 40px;
   height: 40px;
-  background-color: #DC3522;
+  background-color: #0097C2;
   color: #fff;
   border-radius: 10px;
   text-align: center;
