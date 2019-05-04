@@ -1,3 +1,15 @@
+:root{
+  --Yellow:   #FBBE00;
+  --Blue:     #0097C2;
+  --DarkBlue: #142F56;
+  --Red:      #E0423F;
+  --DarkGray: #1E1E20;
+  --White:    #ffffff;
+  --Slate:    #26343D;
+}
+
+
+
 
 .bg{
   background-image: url(../img/bg2.jpg);
@@ -51,15 +63,15 @@
 }
 
 .titleMessage .heading .main{
-  color: #FBBE00;
+  color: var(--Yellow);
   font-size: 60px;
 }
 .titleMessage .sub{
-  color: #fff;
+  color: var(--White);
   font-size: 35px;
 }
 .titleMessage .myIcons{
-  color: #fff;
+  color: var(--White);
   letter-spacing: 11px;
   font-size: 25px;
   text-shadow: 2px 2px 7px rgba(0, 0, 0, .5);
@@ -67,19 +79,19 @@
 .section{
   padding: 80px;
   font-family: 'PT Sans', sans-serif;
-  font-size: 18px;
+  font-size: 25px;
 
 }
 .section h2{
-  color: #FBBE00;
+  color: var(--Yellow);
   font-family: 'PT Sans Narrow', sans-serif;
   text-align: center;
   padding-bottom: 30px;
 }
 
 .aboutSection{
-  background-color: #1E1E20;
-  color: #D9CB9E;
+  background-color: var(--DarkGray);
+  color: var(--Yellow);
 
 }
 .aboutSection .row{
@@ -91,15 +103,15 @@
   border-radius: 10px;
 }
 .quoteSection{
-  background-color: #0097C2;
-  color: #FBBE00;
+  background-color: var(--Blue);
+  color: var(--Yellow);
   text-align: right;
   font-size: 2.5vw;
   padding: 50px 10%;
 }
 .skillsSection{
-  background-color: #1E1E20;
-  color: #fff;
+  background-color: var(--DarkGray);
+  color: var(--White);
   padding: 40px;
   font-family: 'PT Sans', sans-serif;
 }
@@ -115,7 +127,7 @@
 }
 
 #aboutBackground{
-  background-color: #E0423F;
+  background-color: var(--DarkGray);
   padding: 30px;
   border-radius: 20px;
 }
@@ -146,7 +158,7 @@
   top: 0;
 }
 .chart .percent{
-  color: #fff;
+  color: var(--White);
   line-height: 152px;
   display: inline-block;
   font-size: 35px;
@@ -159,19 +171,19 @@
 }
 
 #navigation{
-  background-color: #1E1E20;
+  background-color: var(--DarkGray);
   z-index: 100px;
 }
 
 #navigation li a{
-  color: #fff;
+  color: var(--White);
   font-family: 'Open Sans', sans-serif;
 }
 #navigation li a:hover{
-  color: #E0423F;
+  color: var(--Red);
 }
 .navbar-brand{
-  color: #0097C2;
+  color: var(--Blue);
   font-family: 'Roboto', sans-serif;
 
   -webkit-transition: all 0.2s linear,0.2s;
@@ -181,7 +193,7 @@
   -transition: all 0.2s linear,0.2s;
 }
 .navbar-brand:hover{
-  color: #0097C2;
+  color: var(--Blue);
   -webkit-transform: scale(1.05,1.05);
   -moz-transform: scale(1.05,1.05);
   -o-transform: scale(1.05,1.05);
@@ -193,14 +205,14 @@
   background-size: 100%;
 }
 .portfolioSection{
-  background-color: #6E6E6E;
+  background-color: var(--Slate);
 }
 .portfolioSection .heading{
   text-align: center;
   padding-bottom: 40px;
   width: 100%;
 }
-.portfolioSection hr{
+.portfolioSection h4{
   font-family: 'Roboto', sans-serif;
 }
 .portfolioSection p{
@@ -219,6 +231,7 @@
 }
 .items li img{
   width: 100%;
+  /* border-radius: 10px; */
   -webkit-transition: all 0.2s linear,0.5s;
   -moz-transition: all 0.2s linear,0.5s;
   -o-transition: all 0.2s linear,0.5s;
@@ -248,7 +261,7 @@
   -transition: all 0.2s linear,0.3s;
 }
 .item .description{
-  color: #fff;
+  color: var(--White);
   position: absolute;
   width: 100%;
   height: 40px;
@@ -277,8 +290,8 @@
   padding: 5px;
 }
 .openButton{
-  background-color: #E0423F;
-  color: #fff;
+  background-color: var(--Blue);
+  color: var(--White);
   text-align: center;
   /* text-decoration:; */
   padding-top: 3px;
@@ -296,7 +309,7 @@
 
 }
 .openButton:hover{
-  color: #fff;
+  color: var(--White);
   /* background-color: #E86917; */
   text-decoration: none;
 
@@ -308,7 +321,7 @@
 }
 }
 .items .icons i{
-  color: #fff;
+  color: var(--White);
   font-size: 20px;
   margin-top: 9.5px;
 }
@@ -361,8 +374,9 @@
   display: block;
   color: black;
   font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
   font-weight: bold;
-  background-color: #D9D9D9;
+  background-color: var(--White);
   border: 1.5px  solid black;
   border-radius: 10px;
   padding: 10px 18px;
@@ -375,7 +389,7 @@
   -transition: all 0.2s linear,0.2s;
 }
 .filter li a:hover{
-  background-color: #D9D9D9;
+  background-color: var(--Yellow);
   border-color: #000;
   -webkit-transform: scale(1.05,1.05);
   -moz-transform: scale(1.05,1.05);
@@ -389,14 +403,14 @@
   padding: 0 3px;
 }
 .filter .current{
-  background-color: #DC3522;
-  border-color: #DC3522;
-  color: #fff;
+  background-color: var(--Yellow);
+  border-color: #000;
+  color: #000;
 }
 .copyrightSection{
   padding: 30px 5px;
-  background-color: #0097C2;
-  color: #fff;
+  background-color: var(--Blue);
+  color: var(--White);
   text-align: center;
 }
 .copyrightSection p{
@@ -414,8 +428,8 @@
 .hiddenContent a{
   width: 40px;
   height: 40px;
-  background-color: #0097C2;
-  color: #fff;
+  background-color: var(--Blue);
+  color: var(--White);
   border-radius: 10px;
   text-align: center;
   display: inline-block;
@@ -469,5 +483,5 @@
   transition-delay: .3s;
 }
 .contactSection{
-  background-color: #1E1E20;
+  background-color: var(--DarkGray);
 }
