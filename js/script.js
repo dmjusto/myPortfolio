@@ -38,21 +38,54 @@ $(document).ready(function(){
   });
 
 
-
+  var colorSet = ['#FBBE00', //Yellow
+                  '#0097C2',//blue
+                  '#E0423F'//red
+                ];
    var skillsTopOffset = $(".skillsSection").offset().top;
    $(window).scroll(function(){
      if(window.pageYOffset > skillsTopOffset - $(window).height() + 200){
-       $('.chart').easyPieChart({
+       $('.chartBlue').easyPieChart({
             easing: 'easeInOut',
-            barColor: '#e66a55',
+            barColor: '#0097C2',
+            lineCap: 'round',
+            rotate: 180,
             trackColor: false,
             scaleColor: false,
-            lineWidth: 4,
+            lineWidth: 8,
             size: 152,
             onStep: function(from, to, percent){
               $(this.el).find('.percent').text(Math.round(percent))
             }
         });
+
+        $('.chartRed').easyPieChart({
+             easing: 'easeInOut',
+             barColor: '#E0423F',
+             lineCap: 'round',
+             rotate: 180,
+             trackColor: false,
+             scaleColor: false,
+             lineWidth: 8,
+             size: 152,
+             onStep: function(from, to, percent){
+               $(this.el).find('.percent').text(Math.round(percent))
+             }
+         });
+
+         $('.chartYellow').easyPieChart({
+              easing: 'easeInOut',
+              barColor: '#FBBE00',
+              lineCap: 'round',
+              rotate: 180,
+              trackColor: false,
+              scaleColor: false,
+              lineWidth: 8,
+              size: 152,
+              onStep: function(from, to, percent){
+                $(this.el).find('.percent').text(Math.round(percent))
+              }
+          });
      }
    })
 

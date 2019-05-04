@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type = "text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|PT+Sans|PT+Sans+Narrow:700|Roboto" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -56,21 +57,21 @@
     <article id="slides">
 
       <section class="overlay"></section>
-      <div class="bg"></div>
+        <div class="bg"></div>
 
       <section class="titleMessage">
         <header class="heading">
           <section class="row icons">
-            <section class="col-md-12">
-              <i class="fas fa-gamepad" style="font-size:18px; width:30px;"></i>
-              <i class="fas fa-code" style="font-size:18px; width:30px;"></i>
-              <i class="fas fa-laptop" style="font-size:18px; width:30px;"></i>
-              <i class="fas fa-mobile-alt" style="font-size:18px; width:30px;"></i>
-              <i class="fas fa-mug-hot" style="font-size:18px; width:30px;"></i>
+            <section class="myIcons col-md-12">
+              <i class="fas fa-gamepad" ></i>
+              <i class="fas fa-code" ></i>
+              <i class="fas fa-laptop" ></i>
+              <i class="fas fa-mobile-alt" ></i>
+              <i class="fas fa-mug-hot" ></i>
             </section>
           </section>
           <p class ="main">DYLAN HANSEN-FAIRBANKS</p>
-          <p class="sub typed" style="font-family:arial;"></p>
+          <p class="sub typed" style="font-family: 'PT Sans', sans-serif;"></p>
         </header>
 
       </section>
@@ -81,39 +82,57 @@
 
 <!-- about section -->
     <article id = "about" class ="aboutSection section">
-
+      <h2 >ABOUT</h2>
       <section class="row no-gutters">
 
-          <section class="col-md-6">
+          <section class="col-md-2"></section>
+
+          <section class="col-md-4">
             <img class="aboutImage" src="img/about.jpeg">
           </section>
-          <section id="aboutBackground"class="col-md-6">
+          <section id="aboutBackground"class="col-md-4">
 
-            <h1 style="color: #D9CB9E">ABOUT</h1>
+
+            <br>
             <p>I'm a software developer.  I'm passionate about making and playing games.  I've been fortunate enough to be a part of several production teams, and I'm a big believer in the power of a group of people working toward a common goal.  </p>
             <p>I enjoy the problem solving aspect of programming, and I enjoy continually challenging myself.</p>
             <p></p>
             <p>I would love to hear from you</p>
           </section>
+          <section class="col-md-2"></section>
 
       </section>
 
     </article>
 <!-- End about section -->
 
+<!-- Quote -->
+    <article class="quoteSection">
+
+      <section>
+        <p>"The world always seems brighter when you’ve just made something that wasn’t there before"<br>-Neil Gaiman</p>
+      </section>
+
+    </article>
+<!-- End Quote -->
+
 <!-- Skills section -->
     <article id="skills" class="skillsSection section">
-      <section class="container">
-        <section class="row">
 
-          <header class="col-md-12 text-center">
-            <h2>TECHNICAL SKILLS</h2>
-          </header >
+      <header class="col-md-12 text-center">
+        <hr>
+        <h2>TECHNICAL SKILLS</h2>
+        <hr>
+      </header >
+
+      <section class="container">
+
+        <section class="row">
 
           <section class="owl-carousel owl-theme">
 
             <div class="skill">
-              <span class="chart" data-percent="72">
+              <span class="chart chartBlue"  data-percent="72">
                 <span class="percent">72</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>C#</h4>
@@ -122,7 +141,7 @@
             </div>
 
             <div class="skill">
-              <span class="chart" data-percent="80">
+              <span class="chart chartRed" data-percent="80">
                 <span class="percent">80</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>Unity</h4>
@@ -131,7 +150,7 @@
             </div>
 
             <div class="skill">
-              <span class="chart" data-percent="12">
+              <span class="chart chartYellow" data-percent="12">
                 <span class="percent">12</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>C++</h4>
@@ -140,7 +159,7 @@
             </div>
 
             <div class="skill">
-              <span class="chart" data-percent="10">
+              <span class="chart chartBlue" data-percent="10">
                 <span class="percent">10</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>Unreal</h4>
@@ -149,7 +168,7 @@
             </div>
 
             <div class="skill">
-              <span class="chart" data-percent="65">
+              <span class="chart chartRed" data-percent="65">
                 <span class="percent">65</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>HTML</h4>
@@ -158,7 +177,7 @@
             </div>
 
             <div class="skill">
-              <span class="chart" data-percent="50">
+              <span class="chart chartYellow" data-percent="50">
                 <span class="percent">50</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>CSS</h4>
@@ -167,7 +186,7 @@
             </div>
 
             <div class="skill">
-              <span class="chart" data-percent="0">
+              <span class="chart chartBlue" data-percent="0">
                 <span class="percent">0</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>MySQL</h4>
@@ -176,7 +195,7 @@
             </div>
 
             <div class="skill">
-              <span class="chart" data-percent="0">
+              <span class="chart chartRed" data-percent="0">
                 <span class="percent">0</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>PHP</h4>
@@ -185,7 +204,7 @@
             </div>
 
             <div class="skill">
-              <span class="chart" data-percent="10">
+              <span class="chart chartYellow" data-percent="10">
                 <span class="percent">10</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>JavaScript</h4>
@@ -194,7 +213,7 @@
             </div>
 
             <div class="skill">
-              <span class="chart" data-percent="7">
+              <span class="chart chartBlue" data-percent="7">
                 <span class="percent">7</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>JQuery</h4>
@@ -203,7 +222,7 @@
             </div>
 
             <div class="skill">
-              <span class="chart" data-percent="65">
+              <span class="chart chartRed" data-percent="65">
                 <span class="percent">65</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>Python</h4>
@@ -212,7 +231,7 @@
             </div>
 
             <div class="skill">
-              <span class="chart" data-percent="35">
+              <span class="chart chartYellow" data-percent="35">
                 <span class="percent">35</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>Java</h4>
