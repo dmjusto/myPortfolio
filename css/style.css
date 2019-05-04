@@ -54,9 +54,9 @@
   color: #FBBE00;
   font-size: 60px;
 }
-.titleMessage .heading .sub{
+.titleMessage .sub{
   color: #fff;
-  font-size: 40px;
+  font-size: 35px;
 }
 .titleMessage .myIcons{
   color: #fff;
@@ -76,6 +76,7 @@
   text-align: center;
   padding-bottom: 30px;
 }
+
 .aboutSection{
   background-color: #1E1E20;
   color: #D9CB9E;
@@ -86,6 +87,8 @@
 }
 .aboutImage{
   max-width: 100%;
+  max-height: 400px;
+  border-radius: 10px;
 }
 .quoteSection{
   background-color: #0097C2;
@@ -114,6 +117,10 @@
 #aboutBackground{
   background-color: #E0423F;
   padding: 30px;
+  border-radius: 20px;
+}
+#aboutBackground section{
+  padding: 10px;
 }
 
 .skill{
@@ -388,7 +395,7 @@
 }
 .copyrightSection{
   padding: 30px 5px;
-  background-color: #1E1E20;
+  background-color: #0097C2;
   color: #fff;
   text-align: center;
 }
@@ -462,5 +469,5 @@
   transition-delay: .3s;
 }
 .contactSection{
-  background-color: #374140;
+  background-color: #1E1E20;
 }
