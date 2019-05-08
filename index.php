@@ -460,7 +460,7 @@
       <section class="linksWrapper">
         <a href="https://github.com/dmjusto" target="_blank" title="github"class="socialLink github fab fa-github"></a>
         <a href="https://www.linkedin.com/in/dylanfairbanks/" target="_blank" title="linkedin" class="socialLink linkedIn fab fa-linkedin-in"></a>
-        <!-- <a href="https://store.steampowered.com/app/837280/Lost_Borderline/" target="_blank" title="steam" class="socialLink steamLink fab fa-steam"></a> -->
+        <a href="https://store.steampowered.com/app/837280/Lost_Borderline/" target="_blank" title="steam" class="socialLink steamLink fab fa-steam"></a>
       </section>
 
 
