@@ -88,21 +88,20 @@
     <article id = "about" class ="aboutSection section">
 
       <h2 >ABOUT ME</h2>
-      <section id="aboutBackground">
+      <!-- <section id="aboutBackground"> -->
         <section class="row no-gutters">
 
             <section class="col-md-6">
               <!-- <img class="aboutImage" src="img/aboutMe.jpg"> -->
             </section>
             <section class="col-md-6">
-              <br>
               <p>I'm a software <span class="aboutBold">developer</span>.  I'm passionate about making and playing <span class="aboutBold">games</span>.  I've been fortunate enough to be a part of several production <span class="aboutBold">teams</span>, and I'm a big believer in the power of a group of people working toward a common goal.  </p>
               <p>I enjoy the <span class="aboutBold">problem solving</span> aspect of programming, and I enjoy continually challenging myself.</p>
               <p>
             </section>
 
         </section>
-      </section>
+      <!-- </section> -->
 
 
     </article>
@@ -443,18 +442,25 @@
 <!-- Contact section -->
     <article id="contact" class="contactSection section">
       <h2>Get in Touch</h2>
-      <section class="contactWrapper">
+      <!-- <section class="contactWrapper"> -->
 
-        <input type="text" name="Name" placeholder="your name..." required value="">
-        <input type="email" name="Email" placeholder="your email..." required value="">
-        <textarea name="Message" placeholder="your message..."rows="6" cols="30"></textarea>
-        <input type="submit" name="" value="Send" class="sendButton">
+        <form class="contactWrapper" action="sendMessage.php" method="post">
+
+          <input type="text" name="name" placeholder="your name..." required value="">
+          <input type="email" name="email" placeholder="your email..." required value="">
+          <input type="text" name="subject" placeholder="subject..." required value="">
+          <textarea name="message" placeholder="your message..."rows="6" cols="30"></textarea>
+          <input type="submit" name="" value="Send" class="sendButton">
+
+        <!-- </form> -->
+
 
       </section>
 
       <section class="linksWrapper">
         <a href="https://github.com/dmjusto" target="_blank" title="github"class="socialLink github fab fa-github"></a>
         <a href="https://www.linkedin.com/in/dylanfairbanks/" target="_blank" title="linkedin" class="socialLink linkedIn fab fa-linkedin-in"></a>
+        <a href="https://store.steampowered.com/app/837280/Lost_Borderline/" target="_blank" title="steam" class="socialLink steamLink fab fa-steam"></a>
       </section>
 
 

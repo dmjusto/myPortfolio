@@ -33,7 +33,7 @@ $(document).ready(function(){
   });
 
   $('.owl-carousel').owlCarousel({
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:4000,
     loop:true,
     touchDrag:true,
@@ -60,6 +60,8 @@ $(document).ready(function(){
                   '#0097C2',//blue
                   '#E0423F'//red
                 ];
+  var owl = $('.owl-carousel');
+
    var skillsTopOffset = $(".skillsSection").offset().top;
    $(window).scroll(function(){
      if(window.pageYOffset > skillsTopOffset - $(window).height() + 200){
@@ -104,6 +106,11 @@ $(document).ready(function(){
                 $(this.el).find('.percent').text(Math.round(percent))
               }
           });
+
+
+
+            owl.trigger('play.owl.autoplay');
+
      }
    })
 

@@ -24,7 +24,7 @@
   height: 100%;
   position: absolute;
   z-index: 3;
-  background-color: rgba(0,0,0,.2);
+  background-color: rgba(0,0,0,.3);
 }
 
 .slides-navigation a.prev,
@@ -98,7 +98,7 @@
   color: var(--Yellow);
 }
 .aboutSection .row{
-  margin: 0 50px;
+  margin: 0 100px 20px 100px;
 }
 .aboutImage{
   max-width: 100%;
@@ -447,6 +447,7 @@
   cursor: default;
 }
 
+
 /* Final state */
 .fancybox-slide--current .hiddenContent,
 .fancybox-slide--current .hiddenContent h2,
@@ -520,11 +521,11 @@
 
 .linksWrapper .linkedIn{
   background-color: #0077B5;
-  border-radius: 1px;
+  /* border-radius: 1px; */
 }
 .linksWrapper .github{
   background-color: #bd2c00;
-  border-radius: 1px;
+  /* border-radius: 1px; */
 }
 .linksWrapper{
   display: flex;
@@ -532,15 +533,15 @@
   align-items: center;
   justify-content: center;
 }
-.socialLink.steamLink{
+/* .socialLink.steamLink{
   border-radius: 5px;
-}
+} */
 .socialLink{
   width: 50px;
   height: 50px;
   background-color: #2a475e;
   color: var(--White);
-  /* border-radius: 5px; */
+  border-radius: 1px;
   margin: 10px 5px;
   text-align: center;
   display: inline-block;
