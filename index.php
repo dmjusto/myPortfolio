@@ -390,7 +390,46 @@
                 </div>
               </li>
 
-              <li onclick="" class="games col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <li onclick="" class="games col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                    <div class="item">
+                        <img src="img/portfolio/thumbnails/DoodleThumbnail.png" alt="">
+
+                        <div class="description">
+                            <h4 >Doodle</h4>
+                            <p>A Search Engine</p>
+                        </div>
+
+                        <div class="icons">
+
+                            <a href="#hiddenContent_3" title="view image" class="openButton" data-fancybox >
+                                <h5>More Info</h5>
+                            </a>
+
+                        </div>
+
+                        <div id="hiddenContent_3" style="display: none" class="hiddenContent">
+                            <div class="row">
+                                <div class="col-md-8">
+
+                                    <img src="img/conjurers.png" alt="">
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>Conjurer's Crypt</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="imageOverlay"></div>
+
+                    </div>
+                </li>
+
+
+                <li onclick="" class="games col-xs-6 col-sm-4 col-md-3 col-lg-3">
                 <div class="item">
                   <img src="img/portfolio/thumbnails/carpool.png" alt="">
 
@@ -452,7 +491,7 @@
           <textarea name="message" placeholder="your message..."rows="6" cols="30"></textarea>
           <input type="submit" name="" value="Send" class="sendButton">
 
-        <!-- </form> -->
+         </form>
 
 
       </section>
