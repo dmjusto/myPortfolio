@@ -476,7 +476,7 @@
 
                             <div class="description">
                                 <h4>Carpool</h4>
-                                <p>An Educational Game That Emphasizes the Benefits of Carpooling</p>
+                                <p>An Educational Game</p>
                             </div>
 
                             <div class="icons">
