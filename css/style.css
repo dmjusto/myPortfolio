@@ -594,9 +594,8 @@
     /* border-radius: 1px; */
 }
 
-.linksWrapper .github {
+ .github {
     background-color: #bd2c00;
-    /* border-radius: 1px; */
 }
 
 .linksWrapper {
@@ -606,21 +605,42 @@
     justify-content: center;
 }
 
-/* .socialLink.steamLink{
-  border-radius: 5px;
-} */
+ .steamLink{
+     background-color: #2a475e;
+
+ }
 .socialLink {
     width: 50px;
     height: 50px;
-    background-color: #2a475e;
+    /*background-color: #2a475e;*/
     color: var(--White);
     border-radius: 1px;
     margin: 10px 5px;
     text-align: center;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-decoration: none;
     font-size: 33px;
-    padding-top: 8.5px;
+    /*padding-top: 8.5px;*/
+
+    -webkit-transition: all 0.2s linear, 0.2s;
+    -moz-transition: all 0.2s linear, 0.2s;
+    -o-transition: all 0.2s linear, 0.2s;
+    -ms-transition: all 0.2s linear, 0.2s;
+    -transition: all 0.2s linear, 0.2s;
+}
+.modalLink{
+    width: 40px;
+    height: 40px;
+    color: var(--White);
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 27px;
 
     -webkit-transition: all 0.2s linear, 0.2s;
     -moz-transition: all 0.2s linear, 0.2s;
@@ -629,7 +649,8 @@
     -transition: all 0.2s linear, 0.2s;
 }
 
-.socialLink:hover {
+.socialLink:hover ,
+.modalLink:hover{
     color: var(--White);
     text-decoration: none;
     -webkit-transform: scale(1.15, 1.15);

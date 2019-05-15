@@ -318,7 +318,7 @@
 
                                         <a href="https://store.steampowered.com/app/837280/Lost_Borderline/"
                                            title="See it on Steam" target="_blank"
-                                           class="socialLink steamLink fab fa-steam"></a>
+                                           class="modalLink steamLink fab fa-steam"></a>
 
                                     </div>
 
@@ -409,6 +409,11 @@
                                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                                             non proident, sunt in culpa qui officia deserunt mollit anim id est
                                             laborum.</p>
+
+                                        <a href="https://github.com/dmjusto/giggle"
+                                           title="Github Repository" target="_blank"
+                                           class="modalLink github fab fa-github"></a>
+
                                     </div>
 
                                 </div>
