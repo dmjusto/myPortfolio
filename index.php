@@ -24,9 +24,10 @@
 
 <body>
 
+
 <!-- Navigation Bar section -->
 <nav id="navigation" class="navbar sticky-top navbar-expand-lg">
-    <a class="navbar-brand" href="#">Dylan Fairbanks </a>
+    <a class="navbar-brand" href="#">Dylan Fairbanks</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +36,9 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#slides">Home</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
             </li>
@@ -48,6 +52,10 @@
                 <a class="nav-link" href="#contact">Contact</a>
             </li>
         </ul>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/dylanfairbanks/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/dmjusto" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
     </div>
 
 </nav>
@@ -96,12 +104,12 @@
     <!-- <section id="aboutBackground"> -->
     <section class="row no-gutters">
 
-        <section class="col-md-6">
-            <!-- <img class="aboutImage" src="img/aboutMe.jpg"> -->
+        <section class="col-md-6 text-center" style="padding-bottom: 38px;">
+            <img class="aboutImage" src="img/about.jpg" alt="About Image ">
         </section>
         <section class="col-md-6">
             <p>I'm a software <span class="aboutBold">developer</span>. I'm passionate about making and playing <span
-                        class="aboutBold">games</span>. I've been fortunate enough to be a part of several production
+                    class="aboutBold">games</span>. I've been fortunate enough to be a part of several production
                 <span class="aboutBold">teams</span>, and I'm a big believer in the power of a group of people working
                 toward a common goal. </p>
             <p>I enjoy the <span class="aboutBold">problem solving</span> aspect of programming, and I enjoy continually
@@ -145,11 +153,38 @@
             <section class="owl-carousel owl-theme">
 
                 <div class="skill">
-              <span class="chart chartBlue" data-percent="72">
-                <span class="percent">72</span>
+              <span class="chart chartBlue" data-percent="95">
+                <span class="percent">95</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>C#</h4>
-                <p>Used in most my web based projects</p>
+<!--                <p>Awesome at it</p>-->
+              </span>
+                </div>
+
+                <div class="skill">
+              <span class="chart chartRed" data-percent="90">
+                <span class="percent">90</span>
+                <canvas id="canvas" width="152" height="152"></canvas>
+                <h4>Unity</h4>
+<!--                <p>Awesome at it</p>-->
+              </span>
+                </div>
+
+                <div class="skill">
+              <span class="chart chartYellow" data-percent="65">
+                <span class="percent">65</span>
+                <canvas id="canvas" width="152" height="152"></canvas>
+                <h4>C++</h4>
+<!--                <p>Getting Pretty Good</p>-->
+              </span>
+                </div>
+
+                <div class="skill">
+              <span class="chart chartBlue" data-percent="60">
+                <span class="percent">60</span>
+                <canvas id="canvas" width="152" height="152"></canvas>
+                <h4>Unreal</h4>
+<!--                <p>Have More To Learn</p>-->
               </span>
                 </div>
 
@@ -157,98 +192,71 @@
               <span class="chart chartRed" data-percent="80">
                 <span class="percent">80</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
-                <h4>Unity</h4>
-                <p>Used in most my web based projects</p>
-              </span>
-                </div>
-
-                <div class="skill">
-              <span class="chart chartYellow" data-percent="12">
-                <span class="percent">12</span>
-                <canvas id="canvas" width="152" height="152"></canvas>
-                <h4>C++</h4>
-                <p>Used in most my web based projects</p>
-              </span>
-                </div>
-
-                <div class="skill">
-              <span class="chart chartBlue" data-percent="10">
-                <span class="percent">10</span>
-                <canvas id="canvas" width="152" height="152"></canvas>
-                <h4>Unreal</h4>
-                <p>Used in most my web based projects</p>
-              </span>
-                </div>
-
-                <div class="skill">
-              <span class="chart chartRed" data-percent="65">
-                <span class="percent">65</span>
-                <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>HTML</h4>
-                <p>Used in most my web based projects</p>
+<!--                <p>Awesome at it</p>-->
               </span>
                 </div>
 
                 <div class="skill">
-              <span class="chart chartYellow" data-percent="50">
-                <span class="percent">50</span>
+              <span class="chart chartYellow" data-percent="85">
+                <span class="percent">85</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>CSS</h4>
-                <p>Used in most my web based projects</p>
+<!--                <p>Awesome at it</p>-->
               </span>
                 </div>
 
-                <div class="skill">
-              <span class="chart chartBlue" data-percent="0">
-                <span class="percent">0</span>
-                <canvas id="canvas" width="152" height="152"></canvas>
-                <h4>MySQL</h4>
-                <p>Used in most my web based projects</p>
-              </span>
-                </div>
+<!--                <div class="skill">-->
+<!--              <span class="chart chartBlue" data-percent="0">-->
+<!--                <span class="percent">0</span>-->
+<!--                <canvas id="canvas" width="152" height="152"></canvas>-->
+<!--                <h4>MySQL</h4>-->
+<!--                <p>Used in most my web based projects</p>-->
+<!--              </span>-->
+<!--                </div>-->
+
+<!--                <div class="skill">-->
+<!--              <span class="chart chartRed" data-percent="0">-->
+<!--                <span class="percent">0</span>-->
+<!--                <canvas id="canvas" width="152" height="152"></canvas>-->
+<!--                <h4>PHP</h4>-->
+<!--                <p>Used in most my web based projects</p>-->
+<!--              </span>-->
+<!--                </div>-->
 
                 <div class="skill">
-              <span class="chart chartRed" data-percent="0">
-                <span class="percent">0</span>
-                <canvas id="canvas" width="152" height="152"></canvas>
-                <h4>PHP</h4>
-                <p>Used in most my web based projects</p>
-              </span>
-                </div>
-
-                <div class="skill">
-              <span class="chart chartYellow" data-percent="10">
-                <span class="percent">10</span>
+              <span class="chart chartBlue" data-percent="50">
+                <span class="percent">50</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>JavaScript</h4>
-                <p>Used in most my web based projects</p>
+<!--                <p>Still Learning</p>-->
               </span>
                 </div>
 
-                <div class="skill">
-              <span class="chart chartBlue" data-percent="7">
-                <span class="percent">7</span>
-                <canvas id="canvas" width="152" height="152"></canvas>
-                <h4>JQuery</h4>
-                <p>Used in most my web based projects</p>
-              </span>
-                </div>
+<!--                <div class="skill">-->
+<!--              <span class="chart chartBlue" data-percent="7">-->
+<!--                <span class="percent">7</span>-->
+<!--                <canvas id="canvas" width="152" height="152"></canvas>-->
+<!--                <h4>JQuery</h4>-->
+<!--                <p>Used in most my web based projects</p>-->
+<!--              </span>-->
+<!--                </div>-->
 
                 <div class="skill">
-              <span class="chart chartRed" data-percent="65">
-                <span class="percent">65</span>
+              <span class="chart chartRed" data-percent="85">
+                <span class="percent">85</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>Python</h4>
-                <p>Used in most my web based projects</p>
+<!--                <p>Awesome at it</p>-->
               </span>
                 </div>
 
                 <div class="skill">
-              <span class="chart chartYellow" data-percent="35">
-                <span class="percent">35</span>
+              <span class="chart chartYellow" data-percent="80">
+                <span class="percent">80</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>Java</h4>
-                <p>Used in most my web based projects</p>
+<!--                <p>Awesome at it</p>-->
               </span>
                 </div>
 
@@ -275,7 +283,7 @@
                     <li><a href="#" data-filter="*" class="current">All</a></li>
                     <li><a href="#" data-filter=".games">Games</a></li>
                     <li><a href="#" data-filter=".websites">Websites</a></li>
-                    <li><a href="#" data-filter=".apps">Apps</a></li>
+                    <!--                    <li><a href="#" data-filter=".apps">Apps</a></li>-->
                 </ul>
             </div>
 
@@ -288,12 +296,12 @@
 
                             <div class="description">
                                 <h4>Lost Boderline</h4>
-                                <p>A 2D Pixel Art Puzzle-Crawler</p>
+                                <p>A 2D Puzzle-Crawler</p>
                             </div>
 
                             <div class="icons">
 
-                                <a href="#hiddenContent_1" title="view image" class="openButton" data-fancybox>
+                                <a href="#hiddenContent_1" title="more info" class="openButton" data-fancybox>
                                     More Info
                                 </a>
 
@@ -308,13 +316,23 @@
                                     </div>
                                     <div class="col-md-4">
                                         <h2>Lost Borderline</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                            non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                            laborum.</p>
+                                        <p>Dylan Fairbanks - Engineer<br>
+                                            Jon Alger - Engineer <br>
+                                            Miguel Bergonia - Artist <br>
+                                            Michael Black - Designer <br>
+                                            Cameron Brotzman - Lead Artist <br>
+                                            Emilee Choate - Team Lead/Producer <br>
+                                            Spencer Dubois - Engineer <br>
+                                            Matt Eggett - Artist <br>
+                                            Alisa Joo - Artist <br>
+                                            Josh Marchand - Producer/Games User Research <br>
+                                            Alex McCorristin - Sound Engineer <br>
+                                            Julian Miranda - Designer <br>
+                                            Evan Rabdau - Artist <br>
+                                            Andrew Robers - Engineer <br>
+                                            Elizabeth Ross - Lead Production Artist <br>
+                                            Justina Wunderlich - Lead Engineer <br>
+                                            Caughey Zachery - Producer</p>
 
                                         <a href="https://store.steampowered.com/app/837280/Lost_Borderline/"
                                            title="See it on Steam" target="_blank"
@@ -338,12 +356,12 @@
 
                             <div class="description">
                                 <h4>Eldritch Depths</h4>
-                                <p>A Lovecraftian Dungeon-Drawler Demo</p>
+                                <p>A Dungeon-Crawler Demo</p>
                             </div>
 
                             <div class="icons">
 
-                                <a href="#hiddenContent_2" title="view image" class="openButton" data-fancybox>
+                                <a href="#hiddenContent_2" title="more info" class="openButton" data-fancybox>
                                     More Info
                                 </a>
 
@@ -358,13 +376,13 @@
                                     </div>
                                     <div class="col-md-4">
                                         <h2>Eldritch Depths</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                            non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                            laborum.</p>
+                                        <p>Dylan Fairbanks - Engineer <br>
+                                            Danny Peterson - Artist<br>
+                                            Van Dy - Engineer<br>
+                                            Brooke Sawyer - Artist <br>
+                                            Dalton Nell - Engineer <br>
+                                            Josh Marchand - Producer <br>
+                                            Grant Bernstein - Artist</p>
                                     </div>
 
                                 </div>
@@ -387,7 +405,7 @@
 
                             <div class="icons">
 
-                                <a href="#hiddenContent_5" title="view image" class="openButton" data-fancybox>
+                                <a href="#hiddenContent_5" title="more info" class="openButton" data-fancybox>
                                     More Info
                                 </a>
 
@@ -397,18 +415,12 @@
                                 <div class="row">
                                     <div class="col-md-8">
 
-                                        <img src="img/conjurers.png" alt="">
+                                        <img src="img/portfolio/thumbnails/DoodlePic.jpg" alt="">
 
                                     </div>
                                     <div class="col-md-4">
                                         <h2>Doodle</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                            non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                            laborum.</p>
+                                        <p>A Search Engine</p>
 
                                         <a href="https://github.com/dmjusto/giggle"
                                            title="Github Repository" target="_blank"
@@ -436,7 +448,7 @@
 
                             <div class="icons">
 
-                                <a href="#hiddenContent_3" title="view image" class="openButton" data-fancybox>
+                                <a href="#hiddenContent_3" title="more info" class="openButton" data-fancybox>
                                     More Info
                                 </a>
 
@@ -451,13 +463,11 @@
                                     </div>
                                     <div class="col-md-4">
                                         <h2>Conjurer's Crypt</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                            non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                            laborum.</p>
+                                        <p>Dylan Fairbanks - Engineer <br>
+                                            Gabe Campbell - Engineer <br>
+                                            Tyler Clark - Designer <br>
+                                            Julian Miranda - Artist
+                                        </p>
                                     </div>
 
                                 </div>
@@ -481,7 +491,7 @@
 
                             <div class="icons">
 
-                                <a href="#hiddenContent_4" title="view image" class="openButton" data-fancybox>
+                                <a href="#hiddenContent_4" title="more info" class="openButton" data-fancybox>
                                     More Info
                                 </a>
 
@@ -496,13 +506,12 @@
                                     </div>
                                     <div class="col-md-4">
                                         <h2>Carpool</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                            non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                            laborum.</p>
+                                        <p>Dylan Fairbanks - Engineer <br>
+                                            Julian Miranda - Artist <br>
+                                            Laupepa Laupepa - Animator <br>
+                                            Lee Neuschwander - Designer <br>
+                                            Alex Eakle - Artist <br>
+                                            Mat Mason - Engineer</p>
                                     </div>
 
                                 </div>
@@ -532,10 +541,18 @@
 
         <form class="contactWrapper" action="sendMessage.php" method="post">
 
-            <input type="text" name="name" placeholder="your name..." required value="">
-            <input type="email" name="email" placeholder="your email..." required value="">
-            <input type="text" name="subject" placeholder="subject..." required value="">
-            <textarea name="message" placeholder="your message..." rows="6" cols="30"></textarea>
+            <label>
+                <input type="text" name="name" placeholder="your name..." required value="">
+            </label>
+            <label>
+                <input type="email" name="email" placeholder="your email..." required value="">
+            </label>
+            <label>
+                <input type="text" name="subject" placeholder="subject..." required value="">
+            </label>
+            <label>
+                <textarea name="message" placeholder="your message..." rows="6" cols="30"></textarea>
+            </label>
             <input type="submit" name="" value="Send" class="sendButton">
 
         </form>
@@ -547,8 +564,8 @@
         <a href="https://github.com/dmjusto" target="_blank" title="github" class="socialLink github fab fa-github"></a>
         <a href="https://www.linkedin.com/in/dylanfairbanks/" target="_blank" title="linkedin"
            class="socialLink linkedIn fab fa-linkedin-in"></a>
-        <a href="https://store.steampowered.com/app/837280/Lost_Borderline/" target="_blank" title="steam"
-           class="socialLink steamLink fab fa-steam"></a>
+        <!--        <a href="https://store.steampowered.com/app/837280/Lost_Borderline/" target="_blank" title="steam"-->
+        <!--           class="socialLink steamLink fab fa-steam"></a>-->
     </section>
 
 

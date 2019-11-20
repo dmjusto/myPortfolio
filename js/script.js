@@ -34,11 +34,13 @@ $(document).ready(function(){
 
   $('.owl-carousel').owlCarousel({
     autoplay:false,
-    autoplayTimeout:4000,
+    // autoplayTimeout:4000,
     loop:true,
     touchDrag:true,
-    items:4,
+    items:3,
+      stagePadding: 1,
     dots:true,
+      nav: true,
     responsive:{
         0:{
             items:1
@@ -109,7 +111,7 @@ $(document).ready(function(){
 
 
 
-            owl.trigger('play.owl.autoplay');
+            // owl.trigger('play.owl.autoplay');
 
      }
    })
