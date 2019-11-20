@@ -1,3 +1,21 @@
+<?php
+//    $result="";
+//    $name =""; // Sender Name
+//    $email =""; // Sender's email ID
+//    $message ="test";
+
+    if (isset($_POST['submit'])){
+        $name=$_POST['name'];
+        $email=$_POST['email'];
+        $message=$_POST['msg'];
+
+        mail("dylanfairbanks@icloud.com","contact message",$message, "dkdkdkdk");
+    }
+
+?>
+
+
+
 <!DOCTYPE html>
 <head>
     <title>Dylan Fairbanks</title>
@@ -535,42 +553,82 @@
 <!-- end portfolio section -->
 
 <!-- Contact section -->
-<article id="contact" class="contactSection section">
-    <h2>Get in Touch</h2>
-    <section class="contactWrapper">
-
-        <form class="contactWrapper" action="sendMessage.php" method="post">
-
-            <label>
-                <input type="text" name="name" placeholder="your name..." required value="">
-            </label>
-            <label>
-                <input type="email" name="email" placeholder="your email..." required value="">
-            </label>
-            <label>
-                <input type="text" name="subject" placeholder="subject..." required value="">
-            </label>
-            <label>
-                <textarea name="message" placeholder="your message..." rows="6" cols="30"></textarea>
-            </label>
-            <input type="submit" name="" value="Send" class="sendButton">
-
-        </form>
-
-
-    </section>
-
-    <section class="linksWrapper">
-        <a href="https://github.com/dmjusto" target="_blank" title="github" class="socialLink github fab fa-github"></a>
-        <a href="https://www.linkedin.com/in/dylanfairbanks/" target="_blank" title="linkedin"
-           class="socialLink linkedIn fab fa-linkedin-in"></a>
-        <!--        <a href="https://store.steampowered.com/app/837280/Lost_Borderline/" target="_blank" title="steam"-->
-        <!--           class="socialLink steamLink fab fa-steam"></a>-->
-    </section>
-
-
-</article>
+<!--<article id="contact" class="contactSection section">-->
+<!--    <h2>Get in Touch</h2>-->
+<!--    <section class="contactWrapper">-->
+<!---->
+<!--        <form class="contactWrapper" action="sendMessage.php" method="post">-->
+<!---->
+<!--            <label>-->
+<!--                <input type="text" name="name" placeholder="your name..." required value="">-->
+<!--            </label>-->
+<!--            <label>-->
+<!--                <input type="email" name="email" placeholder="your email..." required value="">-->
+<!--            </label>-->
+<!--            <label>-->
+<!--                <input type="text" name="subject" placeholder="subject..." required value="">-->
+<!--            </label>-->
+<!--            <label>-->
+<!--                <textarea name="message" placeholder="your message..." rows="6" cols="30"></textarea>-->
+<!--            </label>-->
+<!--            <input type="submit" name="" value="Send" class="sendButton">-->
+<!---->
+<!--        </form>-->
+<!---->
+<!---->
+<!--    </section>-->
+<!---->
+<!--    <section class="linksWrapper">-->
+<!--        <a href="https://github.com/dmjusto" target="_blank" title="github" class="socialLink github fab fa-github"></a>-->
+<!--        <a href="https://www.linkedin.com/in/dylanfairbanks/" target="_blank" title="linkedin"-->
+<!--           class="socialLink linkedIn fab fa-linkedin-in"></a>-->
+<!--    </section>-->
+<!---->
+<!---->
+<!--</article>-->
 <!-- End contact section -->
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h2 align="center">Get in Touch</h2>
+
+                <form method="post" role="form" action="" >
+
+                    <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="your name..." required value=""
+                                   oninvalid="this.setCustomValidity('Enter Your Name Here')"
+                                   oninput="this.setCustomValidity('')" >
+                    </div>
+
+                    <div class="form-group">
+                            <input type="email" name="email" class="form-control" placeholder="your email..." required value=""
+                                   oninvalid="this.setCustomValidity('Enter Your Email Address Here')"
+                                   oninput="this.setCustomValidity('')" >
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control"  name="msg" id="msg"
+                                   rows="6" placeholder="message..." style="margin: 0"  required ></textarea>
+                    </div>
+
+                    <div class="form-check" style="padding-bottom: 1.2rem;">
+                        <input type="checkbox" name="check" class="form-check-input" id="testCheck" required
+                               oninvalid="this.setCustomValidity('Please confirm you are human')"
+                               oninput="this.setCustomValidity('')" >
+                        <label for="testCheck" class="form-check-label">I am not a robot</label>
+                    </div>
+
+                    <div align="center">
+                        <input type="submit" name="submit" class="btn btn-secondary" value="Send Message">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
 <footer>
     <section class="copyrightSection">
