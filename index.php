@@ -611,7 +611,7 @@
 
                     <div class="form-group">
                         <textarea class="form-control"  name="msg" id="msg"
-                                   rows="6" placeholder="message..." style="margin: 0"  required ></textarea>
+                                   rows="8" placeholder="message..." style="margin: 0"  required ></textarea>
                     </div>
 
                     <div class="form-check" style="padding-bottom: 1.2rem;">
@@ -624,6 +624,12 @@
                     <div align="center">
                         <input type="submit" name="submit" class="btn btn-secondary" value="Send Message">
                     </div>
+
+                    <section class="linksWrapper">
+                        <a href="https://github.com/dmjusto" target="_blank" title="github" class="socialLink github fab fa-github"></a>
+                        <a href="https://www.linkedin.com/in/dylanfairbanks/" target="_blank" title="linkedin"
+                           class="socialLink linkedIn fab fa-linkedin-in"></a>
+                    </section>
 
                 </form>
             </div>
