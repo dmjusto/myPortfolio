@@ -9,7 +9,8 @@
         $email=$_POST['email'];
         $message=$_POST['msg'];
 
-        mail("dylanfairbanks@icloud.com","contact message",$message, "dkdkdkdk");
+        mail("dylanfairbanks@icloud.com","contact message","From: ".$name."\n".$email."\n\n\n".$message
+            , "Message from Portfolio Page:");
     }
 
 ?>
