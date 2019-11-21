@@ -20,11 +20,6 @@
             padding: 10px 0;
             /* margin-left: 20px; */
             margin: 0 30px 20px 30px;">Thank You</div>';
-
-
-
-//        header("Location: index.php#contact");
-//        exit();
     }
 
 ?>
@@ -190,7 +185,6 @@
                 <span class="percent">95</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>C#</h4>
-<!--                <p>Awesome at it</p>-->
               </span>
                 </div>
 
@@ -199,7 +193,6 @@
                 <span class="percent">90</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>Unity</h4>
-<!--                <p>Awesome at it</p>-->
               </span>
                 </div>
 
@@ -208,7 +201,6 @@
                 <span class="percent">65</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>C++</h4>
-<!--                <p>Getting Pretty Good</p>-->
               </span>
                 </div>
 
@@ -217,7 +209,6 @@
                 <span class="percent">60</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>Unreal</h4>
-<!--                <p>Have More To Learn</p>-->
               </span>
                 </div>
 
@@ -226,61 +217,30 @@
                 <span class="percent">80</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>HTML</h4>
-<!--                <p>Awesome at it</p>-->
               </span>
                 </div>
 
                 <div class="skill">
-              <span class="chart chartYellow" data-percent="85">
-                <span class="percent">85</span>
-                <canvas id="canvas" width="152" height="152"></canvas>
-                <h4>CSS</h4>
-<!--                <p>Awesome at it</p>-->
-              </span>
+                  <span class="chart chartYellow" data-percent="85">
+                    <span class="percent">85</span>
+                    <canvas id="canvas" width="152" height="152"></canvas>
+                    <h4>CSS</h4>
+                  </span>
                 </div>
-
-<!--                <div class="skill">-->
-<!--              <span class="chart chartBlue" data-percent="0">-->
-<!--                <span class="percent">0</span>-->
-<!--                <canvas id="canvas" width="152" height="152"></canvas>-->
-<!--                <h4>MySQL</h4>-->
-<!--                <p>Used in most my web based projects</p>-->
-<!--              </span>-->
-<!--                </div>-->
-
-<!--                <div class="skill">-->
-<!--              <span class="chart chartRed" data-percent="0">-->
-<!--                <span class="percent">0</span>-->
-<!--                <canvas id="canvas" width="152" height="152"></canvas>-->
-<!--                <h4>PHP</h4>-->
-<!--                <p>Used in most my web based projects</p>-->
-<!--              </span>-->
-<!--                </div>-->
 
                 <div class="skill">
               <span class="chart chartBlue" data-percent="50">
                 <span class="percent">50</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>JavaScript</h4>
-<!--                <p>Still Learning</p>-->
               </span>
                 </div>
-
-<!--                <div class="skill">-->
-<!--              <span class="chart chartBlue" data-percent="7">-->
-<!--                <span class="percent">7</span>-->
-<!--                <canvas id="canvas" width="152" height="152"></canvas>-->
-<!--                <h4>JQuery</h4>-->
-<!--                <p>Used in most my web based projects</p>-->
-<!--              </span>-->
-<!--                </div>-->
 
                 <div class="skill">
               <span class="chart chartRed" data-percent="85">
                 <span class="percent">85</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>Python</h4>
-<!--                <p>Awesome at it</p>-->
               </span>
                 </div>
 
@@ -289,7 +249,6 @@
                 <span class="percent">80</span>
                 <canvas id="canvas" width="152" height="152"></canvas>
                 <h4>Java</h4>
-<!--                <p>Awesome at it</p>-->
               </span>
                 </div>
 
@@ -344,7 +303,6 @@
                                 <div class="row">
                                     <div class="col-md-8">
 
-<!--                                        <video src="video/LB_Trailer.mp4" preload="metadata" muted loop></video>-->
 
                                         <iframe width="400" height="225" src="https://www.youtube.com/embed/wz3v7E2TJqc"
                                                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
@@ -408,7 +366,6 @@
                                 <div class="row">
                                     <div class="col-md-8">
 
-<!--                                        <video src="video/EldritchDepthsClip.mp4" preload="metadata" loop></video>-->
 
                                         <iframe width="400" height="225" src="https://www.youtube.com/embed/YdEufnmqUAE"
                                                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
@@ -542,7 +499,6 @@
                                 <div class="row">
                                     <div class="col-md-8">
 
-<!--                                        <video src="video/carpoolClip.mp4" preload="metadata" loop></video>-->
 
                                         <iframe width="400" height="225" src="https://www.youtube.com/embed/qJ6XO3tEY4k"
                                                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
@@ -579,42 +535,8 @@
 </article>
 <!-- end portfolio section -->
 
-<!-- Contact section -->
-<!--<article id="contact" class="contactSection section">-->
-<!--    <h2>Get in Touch</h2>-->
-<!--    <section class="contactWrapper">-->
-<!---->
-<!--        <form class="contactWrapper" action="sendMessage.php" method="post">-->
-<!---->
-<!--            <label>-->
-<!--                <input type="text" name="name" placeholder="your name..." required value="">-->
-<!--            </label>-->
-<!--            <label>-->
-<!--                <input type="email" name="email" placeholder="your email..." required value="">-->
-<!--            </label>-->
-<!--            <label>-->
-<!--                <input type="text" name="subject" placeholder="subject..." required value="">-->
-<!--            </label>-->
-<!--            <label>-->
-<!--                <textarea name="message" placeholder="your message..." rows="6" cols="30"></textarea>-->
-<!--            </label>-->
-<!--            <input type="submit" name="" value="Send" class="sendButton">-->
-<!---->
-<!--        </form>-->
-<!---->
-<!---->
-<!--    </section>-->
-<!---->
-<!--    <section class="linksWrapper">-->
-<!--        <a href="https://github.com/dmjusto" target="_blank" title="github" class="socialLink github fab fa-github"></a>-->
-<!--        <a href="https://www.linkedin.com/in/dylanfairbanks/" target="_blank" title="linkedin"-->
-<!--           class="socialLink linkedIn fab fa-linkedin-in"></a>-->
-<!--    </section>-->
-<!---->
-<!---->
-<!--</article>-->
-<!-- End contact section -->
 
+<!--Contact Section-->
 <section id="contact">
     <div class="container">
         <div class="row">
@@ -664,6 +586,7 @@
         </div>
     </div>
 </section>
+<!--End of contact Section-->
 
 <footer>
     <section class="copyrightSection">

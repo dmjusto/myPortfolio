@@ -127,7 +127,6 @@
 }
 
 .aboutSection .row {
-    /*margin: 0 100px 20px 100px;*/
 }
 
 .aboutImage {
@@ -243,11 +242,6 @@
 
 .navbar-brand:hover {
     color: var(--Blue);
-    /*-webkit-transform: scale(1.05, 1.05);*/
-    /*-moz-transform: scale(1.05, 1.05);*/
-    /*-o-transform: scale(1.05, 1.05);*/
-    /*-ms-transform: scale(1.05, 1.05);*/
-    /*-transform: scale(1.05, 1.05);*/
 }
 
 .navbar-toggler-icon {
@@ -261,7 +255,6 @@
 
 .portfolioSection .heading {
     text-align: center;
-    /* padding-bottom: 40px; */
     width: 100%;
 }
 
@@ -280,7 +273,6 @@
 
 .itemsContainer {
     width: 100%;
-    /* margin-top: 50px; */
 }
 
 .itemsContainer .items {
@@ -289,7 +281,6 @@
 
 .items li img {
     width: 100%;
-    /* border-radius: 10px; */
     -webkit-transition: all 0.2s linear, 0.5s;
     -moz-transition: all 0.2s linear, 0.5s;
     -o-transition: all 0.2s linear, 0.5s;
@@ -343,7 +334,6 @@
 }
 
 .item .description h4 {
-    /*font-size: 18px;*/
     padding: 5px;
 }
 
@@ -359,7 +349,6 @@
     background-color: var(--Blue);
     color: var(--White);
     text-align: center;
-    /* text-decoration:; */
     padding-top: 2px;
     border-radius: 20px;
     width: 120px;
@@ -378,7 +367,6 @@
 
 .openButton:hover {
     color: var(--White);
-    /* background-color: #E86917; */
     text-decoration: none;
 
     -webkit-transform: scale(1.05, 1.05);
@@ -455,9 +443,6 @@
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    /* background-color: var(--White); */
-    /* border: 1.5px  solid black;
-    border-radius: 10px; */
     padding: 10px 0;
     text-decoration: none;
 
@@ -469,8 +454,6 @@
 }
 
 .filter li a:hover {
-    /* background-color: var(--Yellow); */
-    /* border-color: #000; */
     -webkit-transform: scale(1.05, 1.05);
     -moz-transform: scale(1.05, 1.05);
     -o-transform: scale(1.05, 1.05);
@@ -485,8 +468,6 @@
 }
 
 .filter .current {
-    /* background-color: var(--Yellow); */
-    /* border-color: #000; */
     color: var(--Red);
 }
 
@@ -504,7 +485,6 @@
 .hiddenContent {
     overflow: hidden;
     border-radius: 10px;
-    /* margin-left: 500px !important; */
     max-width: 80% !important;
 
     transform: translateY(-50px);
@@ -556,7 +536,6 @@
     color: var(--Yellow);
 }
 #contact h2{
-    /*color: var(--Yellow);*/
     padding: 30px 0;
 }
 
@@ -624,7 +603,6 @@
 
 .linksWrapper .linkedIn {
     background-color: #0077B5;
-    /* border-radius: 1px; */
 }
 
  .github {
@@ -646,7 +624,6 @@
 .socialLink {
     width: 50px;
     height: 50px;
-    /*background-color: #2a475e;*/
     color: var(--White);
     border-radius: 1px;
     margin: 10px 5px;
@@ -656,7 +633,6 @@
     justify-content: center;
     text-decoration: none;
     font-size: 33px;
-    /*padding-top: 8.5px;*/
 
     -webkit-transition: all 0.2s linear, 0.2s;
     -moz-transition: all 0.2s linear, 0.2s;
