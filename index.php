@@ -1,5 +1,5 @@
 <?php
-//    $result="";
+    $result="";
 //    $name =""; // Sender Name
 //    $email =""; // Sender's email ID
 //    $message ="test";
@@ -11,6 +11,20 @@
 
         mail("dylanfairbanks@icloud.com","contact message","From: ".$name."\n".$email."\n\n\n".$message
             , "Message from Portfolio Page:");
+
+        $result='<div  style="
+            background-color: skyblue;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 0;
+            /* margin-left: 20px; */
+            margin: 0 30px 20px 30px;">Thank You</div>';
+
+
+
+//        header("Location: index.php#contact");
+//        exit();
     }
 
 ?>
@@ -330,7 +344,11 @@
                                 <div class="row">
                                     <div class="col-md-8">
 
-                                        <video src="video/LB_Trailer.mp4" autoplay muted loop></video>
+<!--                                        <video src="video/LB_Trailer.mp4" preload="metadata" muted loop></video>-->
+
+                                        <iframe width="400" height="225" src="https://www.youtube.com/embed/wz3v7E2TJqc"
+                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                                                 picture-in-picture" allowfullscreen></iframe>
 
                                     </div>
                                     <div class="col-md-4">
@@ -390,7 +408,11 @@
                                 <div class="row">
                                     <div class="col-md-8">
 
-                                        <video src="video/EldritchDepthsClip.mp4" autoplay loop></video>
+<!--                                        <video src="video/EldritchDepthsClip.mp4" preload="metadata" loop></video>-->
+
+                                        <iframe width="400" height="225" src="https://www.youtube.com/embed/YdEufnmqUAE"
+                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                                                 picture-in-picture" allowfullscreen></iframe>
 
                                     </div>
                                     <div class="col-md-4">
@@ -520,7 +542,11 @@
                                 <div class="row">
                                     <div class="col-md-8">
 
-                                        <video src="video/carpoolClip.mp4" autoplay loop></video>
+<!--                                        <video src="video/carpoolClip.mp4" preload="metadata" loop></video>-->
+
+                                        <iframe width="400" height="225" src="https://www.youtube.com/embed/qJ6XO3tEY4k"
+                                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                                                picture-in-picture" allowfullscreen></iframe>
 
                                     </div>
                                     <div class="col-md-4">
@@ -595,7 +621,9 @@
             <div class="col-md-6 offset-md-3">
                 <h2 align="center">Get in Touch</h2>
 
-                <form method="post" role="form" action="" >
+                <?php echo $result?>
+
+                <form method="post" role="form" id="contactForm" action="index.php#contactForm">
 
                     <div class="form-group">
                             <input type="text" name="name" class="form-control" placeholder="your name..." required value=""
