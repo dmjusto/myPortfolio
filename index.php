@@ -1,8 +1,5 @@
 <?php
     $result="";
-//    $name =""; // Sender Name
-//    $email =""; // Sender's email ID
-//    $message ="test";
 
     if (isset($_POST['submit'])){
         $name=$_POST['name'];
@@ -418,7 +415,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <h2>Doodle</h2>
-                                        <p>A Search Engine</p>
+                                        <p>Not as good as Google, but it's got heart</p>
 
                                         <a href="https://github.com/dmjusto/giggle"
                                            title="Github Repository" target="_blank"
